@@ -115,7 +115,7 @@ const Index = () => {
                   <p>Socratic by Google is a free learning app for
                     students that provides personalized homework help.
                     It uses artificial intelligence technology to analyze
-                    students' questions and provide instant explanations
+                    students questions and provide instant explanations
                     and step-by-step help with their homework. The app covers
                     a wide range of subjects, including math, science,
                     and social studies, and helps students understand difficult
