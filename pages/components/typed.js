@@ -10,9 +10,9 @@ const Autotyper = () =>{
     React.useEffect(() => {
       const options = {
           strings: [
-          'We will provide you the best knowledge of AI Tools',
-          'We will provide best AI practices',
-          'Lets Build the eco-system of AI together.'
+          'Great Vision',
+          'Lets Learn together',
+          'Lets Grow together'
         ],
         typeSpeed: 50,
         backSpeed: 50,
