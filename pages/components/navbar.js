@@ -1,4 +1,4 @@
-
+import Link from "next/link";
 
 const Navbar = () =>{
     return(<>
@@ -11,13 +11,13 @@ const Navbar = () =>{
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" >Home</a>
+          <Link href="/" legacyBehavior><a className="nav-link active" aria-current="page" >Home</a></Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" >About</a>
+          <Link href="/about" legacyBehavior><a className="nav-link" >About</a></Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link ">Contact</a>
+          <Link href="/contact" legacyBehavior><a className="nav-link ">Contact</a></Link>
         </li>
       </ul>
       <form className="d-flex" role="search">
